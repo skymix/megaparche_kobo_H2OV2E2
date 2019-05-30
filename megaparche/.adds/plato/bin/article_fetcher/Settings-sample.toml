@@ -1,0 +1,13 @@
+# E.g.: https://framabag.org or https://app.wallabag.it.
+base-url = "https://framabag.org"
+
+# Login information.
+username = "?"
+password = "?"
+
+# Can be generated from the *API clients management* section of the Web UI.
+client-id = "?"
+client-secret = "?"
+
+# Must be a descendant of `library-path` (defined in Plato's Settings.toml).
+save-path = "/mnt/onboard/Articles"

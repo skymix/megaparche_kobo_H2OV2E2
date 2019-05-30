@@ -1,0 +1,131 @@
+Original fb rotation is set @ 1
+Original fb bitdepth is set @ 32bpp
+Switching fb bitdepth to 8bpp & rotation to Portrait
+[FBInk] Detected a Kobo H2O² r2 (378)
+Variable fb info: 1080x1440 (1088x1536), 32bpp @ rotation: 1 (Clockwise, 90°)
+Fixed fb info: ID is "mxc_epdc_fb", length of fb mem: 6684672 bytes & line length: 4352 bytes
+Device's expected Portrait orientation should be: 1 (Clockwise, 90°)!
+
+Current rotation is already 1!
+
+Switching fb to 8bpp @ rotation 1 . . .
+Setting bitdepth to 8bpp
+Setting grayscale to 1
+Setting rotate to 1 (Clockwise, 90°)
+
+Current rotation (3) doesn't match the expected rotation (1), attempting to fix it . . .
+Kernel rotation quirk recovery: 3 -> 1
+Bitdepth is now 8bpp (grayscale: 1) @ rotate: 1 (Clockwise, 90°)
+
+Variable fb info: 1080x1440 (1088x3072), 8bpp @ rotation: 1 (Clockwise, 90°)
+Fixed fb info: ID is "mxc_epdc_fb", length of fb mem: 6684672 bytes & line length: 1088 bytes
+---------------------------------------------
+                launching...
+  _  _____  ____                _
+ | |/ / _ \|  _ \ ___  __ _  __| | ___ _ __
+ | ' / | | | |_) / _ \/ _` |/ _` |/ _ \ '__|
+ | . \ |_| |  _ <  __/ (_| | (_| |  __/ |
+ |_|\_\___/|_| \_\___|\__,_|\__,_|\___|_|
+
+ It's a scroll... It's a codex... It's KOReader!
+
+ [*] Current time: 05/24/19-12:00:07
+ [*] Version: v2019.05
+
+ffi.load: SDL2
+ffi.load (warning): libSDL2.so: cannot open shared object file: No such file or directory
+ffi.load: libSDL2-2.0.so
+ffi.load (warning): libSDL2-2.0.so: cannot open shared object file: No such file or directory
+SDL2 not loaded:	./setupkoenv.lua:27: Not able to load dynamic library: libSDL2-2.0.so
+ffi.load: SDL
+ffi.load (warning): libSDL.so: cannot open shared object file: No such file or directory
+SDL not loaded:	./setupkoenv.lua:27: Not able to load dynamic library: SDL
+ffi.load: blitbuffer
+FB: computed size: 3342336
+FB: id           : mxc_epdc_fb
+FB: smem_len     : 6684672
+FB: line_length  : 1088
+FB: xres         : 1080
+FB: xres_virtual : 1088
+FB: yres         : 1440
+FB: yres_virtual : 3072
+FB: bpp          : 8
+05/24/19-12:00:08 INFO  initializing for device Kobo_snow_r2
+05/24/19-12:00:08 INFO  framebuffer resolution: {
+    ["h"] = 1440,
+    ["w"] = 1080
+}
+[ko-input] Forked off fake event generator(pid:1274).
+ffi.load: libs/libmupdf.so
+ffi.load: libs/libwrap-mupdf.so
+ffi.load: libs/libfreetype.so.6
+05/24/19-12:00:08 INFO  opening file ./help/quickstart-en-v2019.05.html
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/A-OTFGothic-BoldItalic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/A-OTFGothic-Italic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/A-OTFGothic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/Bellota-Italic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/Bellota.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/DroidSerif.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/HelveticaNeueWGL-Bold.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/HelveticaNeueWGL-BoldItalic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/HelveticaNeueWGL-Italic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/HelveticaNeueWGL.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/JosefinSlab-Italic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/JosefinSlab.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/NotoSans-Bold.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/NotoSans-BoldItalic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/NotoSans-Italic.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/NotoSans.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/Verdana.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/arialbd.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/arialbi.ttf>
+05/24/19-12:00:08 ERROR failed to register crengine font: cannot register font </mnt/onboard/fonts/ariali.ttf>
+05/24/19-12:00:09 INFO  Loading plugins from directory: plugins
+05/24/19-12:00:09 INFO  Plugin  plugins/autofrontlight.koplugin/main.lua  has been disabled.
+ffi.load: sqlite3
+ffi.load: z
+ffi.load: sqlite3
+05/24/19-12:00:09 INFO  Plugin  plugins/hello.koplugin/main.lua  has been disabled.
+05/24/19-12:00:09 INFO  RD loaded plugin SSH at plugins/SSH.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin autosuspend at plugins/autosuspend.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin backgroundrunner at plugins/backgroundrunner.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin batterystat at plugins/batterystat.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin calibrecompanion at plugins/calibrecompanion.koplugin
+05/24/19-12:00:09 INFO  CoverBrowser: setting default display modes
+05/24/19-12:00:09 INFO  RD loaded plugin coverbrowser at plugins/coverbrowser.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin evernote at plugins/evernote.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin goodreads at plugins/goodreads.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin keepalive at plugins/keepalive.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin kobolight at plugins/kobolight.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin kosync at plugins/kosync.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin newsdownloader at plugins/newsdownloader.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin perceptionexpander at plugins/perceptionexpander.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin readtimer at plugins/readtimer.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin send2ebook at plugins/send2ebook.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin statistics at plugins/statistics.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin systemstat at plugins/systemstat.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin terminal at plugins/terminal.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin texteditor at plugins/texteditor.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin timesync at plugins/timesync.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin wallabag at plugins/wallabag.koplugin
+05/24/19-12:00:09 INFO  RD loaded plugin zsync at plugins/zsync.koplugin
+05/24/19-12:00:21 INFO  no dialog left to show
+05/24/19-12:00:21 INFO  quitting uimanager
+Restoring original fb bitdepth @ 32bpp & rotation @ 1
+[FBInk] Detected a Kobo H2O² r2 (378)
+Variable fb info: 1080x1440 (1088x3072), 8bpp @ rotation: 1 (Clockwise, 90°)
+Fixed fb info: ID is "mxc_epdc_fb", length of fb mem: 6684672 bytes & line length: 1088 bytes
+
+Current rotation is already 1!
+
+Switching fb to 32bpp @ rotation 1 . . .
+Setting bitdepth to 32bpp
+Setting grayscale to 0
+Setting rotate to 1 (Clockwise, 90°)
+
+Current rotation (3) doesn't match the expected rotation (1), attempting to fix it . . .
+Kernel rotation quirk recovery: 3 -> 1
+Bitdepth is now 32bpp (grayscale: 0) @ rotate: 1 (Clockwise, 90°)
+
+Variable fb info: 1080x1440 (1088x1536), 32bpp @ rotation: 1 (Clockwise, 90°)
+Fixed fb info: ID is "mxc_epdc_fb", length of fb mem: 6684672 bytes & line length: 4352 bytes

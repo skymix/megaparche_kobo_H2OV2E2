@@ -1,0 +1,51 @@
+library-path = "/mnt/onboard"
+frontlight = true
+wifi = false
+auto-suspend = 15
+
+[home]
+summary-size = 2
+second-column = "progress"
+hooks = []
+
+[reader]
+refresh-every = 8
+finished = "notify"
+epub-engine = "built-in"
+font-path = "/mnt/onboard/fonts"
+font-family = "Libertinus Serif"
+font-size = 11.0
+text-align = "left"
+margin-width = 8
+line-height = 1.2
+
+[import]
+unshare-trigger = true
+startup-trigger = true
+traverse-hidden = false
+allowed-kinds = ["fb2", "epub", "cbz", "djvu", "pdf"]
+category-providers = ["path"]
+
+[sketch]
+save-path = "Sketches"
+notify-success = true
+
+[sketch.pen]
+size = 2
+dynamic = true
+color = 0
+min-speed = 31.299213
+max-speed = 1590.0
+
+[calculator]
+font-size = 8.0
+margin-width = 2
+history-size = 4096
+
+[battery]
+warn = 10.0
+power-off = 3.0
+
+[frontlight-levels]
+intensity = 0.0
+warmth = 0.0
